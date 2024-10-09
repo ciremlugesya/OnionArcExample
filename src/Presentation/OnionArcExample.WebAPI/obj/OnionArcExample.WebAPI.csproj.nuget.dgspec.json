@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Presentation\\OnionArcExample.WebAPI\\OnionArcExample.WebAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj",
+        "projectName": "OnionArcExample.Application",
+        "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj",
+        "packagesPath": "C:\\Users\\aysegul.meric\\.nuget\\packages\\",
+        "outputPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aysegul.meric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj",
+        "projectName": "OnionArcExample.Domain",
+        "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj",
+        "packagesPath": "C:\\Users\\aysegul.meric\\.nuget\\packages\\",
+        "outputPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aysegul.meric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\OnionArcExample.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\OnionArcExample.Infrastructure.csproj",
+        "projectName": "OnionArcExample.Infrastructure",
+        "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\OnionArcExample.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aysegul.meric\\.nuget\\packages\\",
+        "outputPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aysegul.meric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\OnionArcExample.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\OnionArcExample.Persistence.csproj",
+        "projectName": "OnionArcExample.Persistence",
+        "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\OnionArcExample.Persistence.csproj",
+        "packagesPath": "C:\\Users\\aysegul.meric\\.nuget\\packages\\",
+        "outputPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aysegul.meric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Application\\OnionArcExample.Application.csproj"
+              },
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Core\\OnionArcExample.Domain\\OnionArcExample.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\OnionArcExample\\OnionArcExample\\src\\Presentation\\OnionArcExample.WebAPI\\OnionArcExample.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OnionArcExample\\OnionArcExample\\src\\Presentation\\OnionArcExample.WebAPI\\OnionArcExample.WebAPI.csproj",
+        "projectName": "OnionArcExample.WebAPI",
+        "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Presentation\\OnionArcExample.WebAPI\\OnionArcExample.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\aysegul.meric\\.nuget\\packages\\",
+        "outputPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Presentation\\OnionArcExample.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aysegul.meric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\OnionArcExample.Infrastructure.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Infrastructure\\OnionArcExample.Infrastructure.csproj"
+              },
+              "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\OnionArcExample.Persistence.csproj": {
+                "projectPath": "D:\\OnionArcExample\\OnionArcExample\\src\\Infrastructure\\OnionArcExample.Persistence\\OnionArcExample.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
